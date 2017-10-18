@@ -58,6 +58,10 @@ h1 {
   padding: 4px 20px;
 }
 
+.content-container header {
+  text-align: center;
+}
+
 .page-head {
   margin: 52px 40px 0px;
   padding: 20px 0px 0px;
@@ -73,7 +77,7 @@ main li {
   line-height: 1.4em;  
 }
 
-footer {
+.page-footer {
   background: #7b7979;
   color: white;
   padding: 8px;
