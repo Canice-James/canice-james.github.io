@@ -61,10 +61,12 @@ p {
 }
 
 .content-container {
+  display: inline-block;
   margin-bottom: 40px;
   border: #cec9c9 1px;
   border-style: outset;
   padding: 4px 20px;
+  width: 100%;  
 }
 
 .content-container header {
@@ -111,14 +113,19 @@ h2 {
 h3 {
   text-decoration: underline;
   text-decoration-style: dotted;
+  display: block;
+  width: 100%;
 }
 
 .content-container figure {
-  display: inline-block;
+  display: block;
   border: 1px solid rgba(76, 40, 40, 0.42);
   padding: 10px;
   text-align: center;
   max-width: 350px;
+  height: fit-content;
+  width: fit-content;
+  float: left;
 }
 
 .content-container figcaption {
