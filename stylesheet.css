@@ -12,7 +12,7 @@ nav {
 }
 
 nav ul {  
-  float:right;
+  text-align: center;
   list-style-type: none;
   padding: 0;
   border-radius: 4px;
@@ -21,7 +21,7 @@ nav ul {
 }
 
 nav ul li {
-  float: left;
+  display: inline-block;
   margin: 0px;
 }
 
