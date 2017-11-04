@@ -98,6 +98,10 @@ main li {
   color: white;
   padding: 8px;
 }
+.page-footer p {
+  text-align: center;
+  font-size: 1em;
+}
 
 h2 {
   text-decoration: underline;
