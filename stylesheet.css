@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
 
+h1, h2, h3, h4, h5, h6, p {
+  margin-left: 1.2em;
+  margin-right: 1em;
+}
 nav {
   position: fixed;
   top: 0px;
@@ -65,7 +69,7 @@ p {
   margin-bottom: 40px;
   border: #cec9c9 1px;
   border-style: outset;
-  padding: 4px 20px;
+  padding: 4px 0px;
   width: 100%;  
 }
 
